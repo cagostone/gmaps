@@ -1,3 +1,31 @@
+# 透過gmaps.js更簡單的使用Google Maps API 
+some gmaps.js examples :pencil:
+* [Demo Video]() - draw_circle
+* [Demo Video]() - draw_path 
+* [Demo Video]() - draw_track
+ 
+## Tutorial
+```
+git clone https://github.com/twtrubiks/gmaps.git
+cd gmaps
+```
+
+## 特色
+* 練習 gmaps.js 這個套件，一些小作品 :smile: 
+
+## 內容
+* [ draw_circle ]() : 使用gmaps在地圖上畫圓圈。
+![alt tag](http://i.imgur.com/Ban7663.jpg) <br><br>
+* [ draw_path ]() :   使用gmaps在地圖上畫直線。
+![alt tag](http://i.imgur.com/JWYE3ls.jpg) <br><br>
+* [ draw_track ]() :  使用gmaps在地圖上畫軌跡。
+![alt tag](http://i.imgur.com/QVDPGuQ.jpg) <br><br>
+
+## 更多資源
+* [ Google Maps API  ](https://developers.google.com/maps/?hl=zh-tw)
+* [ gmaps ](https://hpneo.github.io/gmaps/)
+
+
 **Important**
 
 If you're developer, I'm moving gmaps.js to NPM, you can give your opinion and check the migration progress in [Issue #404](https://github.com/hpneo/gmaps/issues/404)
