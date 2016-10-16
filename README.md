@@ -1,8 +1,8 @@
 # 透過gmaps.js更簡單的使用Google Maps API 
 some gmaps.js examples :pencil:
-* [Demo Video]() - draw_circle
-* [Demo Video]() - draw_path 
-* [Demo Video]() - draw_track
+* [Demo Video](https://youtu.be/pqLaorIiQYA) - draw_circle
+* [Demo Video](https://youtu.be/sl94QdKXAgw) - draw_path 
+* [Demo Video](https://youtu.be/3ZaLwu6cCHo) - draw_track
  
 ## Tutorial
 ```

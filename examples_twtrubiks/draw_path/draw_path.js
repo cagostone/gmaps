@@ -63,22 +63,22 @@ var paths={
 	path1:{
 		circle_lat:circle_map["circle1"].lat,
 		circle_lng:circle_map["circle1"].lng,
-		person_lat:pokemons["pokemon1"].lat, 
-		person_lng:pokemons["pokemon1"].lng,  
+		pokemon_lat:pokemons["pokemon1"].lat, 
+		pokemon_lng:pokemons["pokemon1"].lng,  
 		color:circle_map["circle1"].color,
 	},
 	path2:{
 		circle_lat:circle_map["circle2"].lat,
 		circle_lng:circle_map["circle2"].lng,
-		person_lat:pokemons["pokemon2"].lat, 
-		person_lng:pokemons["pokemon2"].lng,  
+		pokemon_lat:pokemons["pokemon2"].lat, 
+		pokemon_lng:pokemons["pokemon2"].lng,  
 		color:circle_map["circle2"].color,
 	},
 	path3:{
 		circle_lat:circle_map["circle3"].lat,
 		circle_lng:circle_map["circle3"].lng,
-		person_lat:pokemons["pokemon3"].lat, 
-		person_lng:pokemons["pokemon3"].lng,  
+		pokemon_lat:pokemons["pokemon3"].lat, 
+		pokemon_lng:pokemons["pokemon3"].lng,  
 		color:circle_map["circle3"].color,
 	},
 	
@@ -129,7 +129,7 @@ for (var circle in circle_map) {
 for (var path in paths) {
 	var polyline = [
 		[ paths[path].circle_lat, paths[path].circle_lng ],
-		[ paths[path].person_lat, paths[path].person_lng ],
+		[ paths[path].pokemon_lat, paths[path].pokemon_lng ],
 	];
 	mapObj.drawPolyline({
 	  path: polyline,
